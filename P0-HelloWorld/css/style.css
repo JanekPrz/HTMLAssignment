@@ -245,3 +245,15 @@ textarea {
   }
 }
 
+h1 {
+  color: deeppink;
+}
+h2 {
+  color: blueviolet;
+}
+p {
+  color: red;
+}
+body {
+  background-color: yellow;
+}
