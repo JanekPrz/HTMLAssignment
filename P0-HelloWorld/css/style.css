@@ -244,9 +244,23 @@ textarea {
     page-break-after: avoid;
   }
 }
+.hero {
+  height: 400px;
+  background: lightgray; /* eller en bakgrundsbild */
+  display: flex;         /* aktiverar flexbox */
+  justify-content: space-around; /* fördela jämnt */
+  align-items: center;   /* centrera vertikalt */
+}
+
+.hero-text {
+  color: black;
+  text-align: center;
+  width: 40%;   /* gör varje text-block smalare */
+}
 
 h1 {
   color: deeppink;
+
 }
 h2 {
   color: blueviolet;
@@ -256,4 +270,8 @@ p {
 }
 body {
   background-color: yellow;
+}
+img {
+  width: 400px;
+  height: 200px;
 }
